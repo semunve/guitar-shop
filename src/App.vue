@@ -33,8 +33,8 @@ onMounted(() => {
   }
 });
 
-console.log(state.guitars); //se trata como un objeto
-console.log(guitarras.value); //con ref se usa .value
+console.log(state.guitars); 
+console.log(guitarras.value); 
 
 const guardarLocalStorage = () => {
   localStorage.setItem("carrito", JSON.stringify(carrito.value));
