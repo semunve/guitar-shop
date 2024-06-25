@@ -7,7 +7,7 @@ import Footer from "./components/Footer.vue";
 const state = reactive({
   guitars: [db],
 });
-const guitarras = ref(db); //el de guitarras
+const guitarras = ref(db);
 const carrito = ref([]);
 const guitarra = ref({});
 
